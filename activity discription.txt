@@ -1,1 +1,27 @@
-walk in the lab
+C:\Users\ncai_01\OneDrive\Desktop\job_actvities>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   activity discription.txt
+
+
+C:\Users\ncai_01\OneDrive\Desktop\job_actvities>git commit -m "This is my day 01 work"
+[main (root-commit) cfaaf0c] This is my day 01 work
+ 1 file changed, 1 insertion(+)
+ create mode 100644 activity discription.txt
+
+C:\Users\ncai_01\OneDrive\Desktop\job_actvities>git remote add origin https://github.com/samadriaz9/Job_activities.git
+
+C:\Users\ncai_01\OneDrive\Desktop\job_actvities>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 249 bytes | 249.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/samadriaz9/Job_activities.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
